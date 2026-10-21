@@ -1,0 +1,50 @@
+# Local editor settings
+.vscode/
+.idea/
+.vs/
+
+# Build and generated output directories
+output/
+build/
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+
+# Executables, objects, libraries, and compiler/debug caches
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.pdb
+*.ilk
+*.idb
+*.pch
+*.gch
+*.d
+*.tlog
+*.gcda
+*.gcno
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Local secrets and backups
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.git.bak/
